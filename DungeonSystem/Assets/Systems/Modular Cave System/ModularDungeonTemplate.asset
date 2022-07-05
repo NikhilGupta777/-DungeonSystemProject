@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c19de1d119f11d4b994d0d1a510d340, type: 3}
+  m_Name: ModularDungeonTemplate
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - Prefab: {fileID: 819703054639376458, guid: 6dc5a1145f2bae64386ce9c8173ddffa, type: 3}
+    Probability: 100
+  - Prefab: {fileID: 2352518960819996139, guid: 762e2e055a2f96b43a93d3a4df08b711,
+      type: 3}
+    Probability: 30
+  - Prefab: {fileID: 3586630554296752314, guid: f5dc023e36fdc7342a052a618caccc6b,
+      type: 3}
+    Probability: 30
+  - Prefab: {fileID: 1364036360599593803, guid: 1c4b545e5d59ca7439d3fe2033197b25,
+      type: 3}
+    Probability: 15
+  - Prefab: {fileID: 1364036360599593803, guid: 1c4b545e5d59ca7439d3fe2033197b25,
+      type: 3}
+    Probability: 15
+  - Prefab: {fileID: 6585544537210711378, guid: 8ee25653416d0d142bafbd3b186e9923,
+      type: 3}
+    Probability: 50
+  - Prefab: {fileID: 8630462481370192530, guid: e2d21e8db240b2c4cb263ab5fc9e37ed,
+      type: 3}
+    Probability: 50
+  - Prefab: {fileID: 8462781137023023691, guid: 8373b8cdfa38243429ac57c69893fa3e,
+      type: 3}
+    Probability: 15
+  DeadEnd: {fileID: 4550168138759105641, guid: 9344b728cf9def94d9187e3290a103ab, type: 3}
