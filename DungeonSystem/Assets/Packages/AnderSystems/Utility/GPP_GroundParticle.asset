@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427431842b0a1d04f83f6d3a6d60b2ab, type: 3}
+  m_Name: GPP_GroundParticle
+  m_EditorClassIdentifier: 
+  Particles:
+  - {fileID: 4231432341397824801, guid: 922c9da439220fd488b08749f6b4219c, type: 3}
+  ParticlesVariant: []
+  ValueToSpawn: 2
+  Options:
+    Rotation: 0
+    YRotationOnly: 0
+    ReParent: 0
+    DestroyOther: 0
+    OnlyOnce: 0
+  ObjectTags: []
+  Textures: []
